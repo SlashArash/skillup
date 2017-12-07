@@ -1,0 +1,35 @@
+
+// Fonts
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.main-page {
+  color: #636b6f;
+  height: 100vh;
+  margin: 0;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  
+}
+.title h1 {
+  font-size: 64px;
+  margin-bottom: 1em; 
+}
+.links {
+  margin: 0 2em;
+}
+.links > a {
+  color: #636b6f;
+  display: block;
+  padding: 1em;
+}
